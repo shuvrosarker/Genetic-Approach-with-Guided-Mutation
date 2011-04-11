@@ -1,0 +1,3 @@
+Genetic Algorithm With Guided Mutation
+
+In this thesis, a new genetic approach is devised for determining the optimal architecture of ANNs. This approach uses two existing constructive algorithms in its mutation process. One of these algorithm is dynamic node creation algorithm(DNC) and the other is a modified version of the marchand's algorithm which is proposed by us in this thesis. In the genetic approach devisd here, the individuals of the initial population are some partially trained networks produced by DNC and the modified marchand's algorithm by running the algorithms for a given amount of time.
