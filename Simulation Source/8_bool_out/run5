@@ -1,0 +1,15 @@
+dnc_output.txt
+dnc_output.txt
+dnc_output.txt hidden neurons : 30
+Total error: 56.981361 Average error: 0.284907
+dnc error : 0.284907
+marchand_output.txt
+marchand_output.txt
+marchand_output.txt hidden neurons : 10
+Total error: 101.585503 Average error: 0.507928
+marchand error : 0.507928
+genetic_ouptut.txt
+genetic_ouptut.txt
+genetic_ouptut.txt hidden neurons : 13
+Total error: 82.707748 Average error: 0.413539
+genetic error : 0.413539

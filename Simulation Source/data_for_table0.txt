@@ -1,0 +1,56 @@
+file opened
+dnc0
+dnc0
+dnc0 hidden neurons : 8
+Total error: 79.898781 Average error: 0.399494
+dnc0 error: 0.399494
+marchand0
+marchand0
+marchand0 hidden neurons : 8
+Total error: 102.732697 Average error: 0.513663
+marchand0 error : 0.513663
+dnc1
+dnc1
+dnc1 hidden neurons : 17
+Total error: 83.707115 Average error: 0.418536
+dnc1 error: 0.418536
+marchand1
+marchand1
+marchand1 hidden neurons : 8
+Total error: 102.732689 Average error: 0.513663
+marchand1 error : 0.513663
+dnc2
+dnc2
+dnc2 hidden neurons : 6
+Total error: 74.288612 Average error: 0.371443
+dnc2 error: 0.371443
+marchand2
+marchand2
+marchand2 hidden neurons : 8
+Total error: 102.732704 Average error: 0.513664
+marchand2 error : 0.513664
+dnc3
+dnc3
+dnc3 hidden neurons : 11
+Total error: 83.298599 Average error: 0.416493
+dnc3 error: 0.416493
+marchand3
+marchand3
+marchand3 hidden neurons : 8
+Total error: 102.732666 Average error: 0.513663
+marchand3 error : 0.513663
+dnc4
+dnc4
+dnc4 hidden neurons : 7
+Total error: 83.216034 Average error: 0.416080
+dnc4 error: 0.416080
+marchand4
+marchand4
+marchand4 hidden neurons : 8
+Total error: 102.732689 Average error: 0.513663
+marchand4 error : 0.513663
+genetic_ouptut.txt
+genetic_ouptut.txt
+genetic_ouptut.txt hidden neurons : 8
+Total error: 79.898781 Average error: 0.399494
+genetic error : 0.399494

@@ -1,0 +1,43 @@
+
+Here, k is a  user defined natural number.
+
+    - Create k/2 instances of dynamic node creation network by varying eta, bias value, initial weights.
+    - Create k/2 instances of marchand by using different permutation of input vectors.
+
+    - For a certain time
+	Train first k/2 networks with DNC
+	Train second k/2 networks with Marchand
+
+    - Select the best  network according to a selection function. (Selection function will consider number of hidden nodes and convergence rate in a specific amount of time, described below).
+
+    - Use these selected networks for next generation and continue the whole process.
+
+    - End
+
+
+Important Consideration
+
+Here comes a new challenge in doing that. That is we have to feed a network for Marchand that is created with DNC and vice versa. The first thing is a bit tricky and the later case is trivial.
+
+Suppose we have a network trained with DNC, and we need to feed this for Marchand. In that case we need to take the network created by DNC and use the training data once again to construct the sets for unclassified instances.
+
+Then We fridge the weights of the whole network and start adding nodes  based on the constructed sets.
+
+
+
+Selection
+
+- Give each network a score.
+- Score = alpha*num_hidden_nodes  + beta*percentage_converged_so_far (alpha and beta are adjustable parameters.)
+- Now construct a roulette wheel based on the scores.
+- Select a random point from the roulette wheel.
+- Select the corresponding network on which the selected point resides.
+- This network will be choose for the next generation
+
+
+Prepare a network to train with Marchand that was actually created with DNC:
+
+- Find the outputs for the DNC network for all the training inputs.
+- Select the missclassified instances.
+- Use only these inputs to train with Marchand in the next generation.
+- The previously trained DNC weights will be fixed.
